@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat karo</title>
+    <link rel="stylesheet" href="chatLook.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header>  <span class="headIcon"> </span> 
+        <div id="headText">Welcome To ChatBook !</div>
+                <div id="tools">
+                    <span  class="call material-symbols-outlined"> 
+                        videocam
+                    </span>
+    
+                    <span class="call material-symbols-outlined">
+                        call
+                    </span>
+                    <button class="apearR" id="apearRScale">  <p> Active :0</p> </button>  
+              </div>
+
+              
+   
+    </header>
+
+    <button class="apearL"><span class="material-symbols-outlined">
+        chat
+        </span> </button>
+    <div id="s_barL">
+
+        <button id="toggle"><div id="to_look"><div class="toggleAop" id="TDesign"></div></div></button>
+        <button id="fullScreen"> <span class="material-symbols-outlined">
+            zoom_out_map
+            </span></button>
+        <ul id="s_listL">
+           
+        </ul>
+
+    </div>
+
+
+
+    <div id="s_barR">
+
+        
+        <ul id="s_listR">
+       
+        </ul>
+
+    </div>
+
+    <div class="msg_content contdark">
+    
+        
+
+
+ 
+     
+    
+
+    </div>
+
+    <div id="visualsBox">
+    <video class="OutervideoBar">
+       
+
+    </video>
+    <video class="NestedvideoBar" muted>
+        
+        
+    </video>
+</div>
+
+
+ <div id="writeSendBox">
+    <textarea id="typeMsg"  data-gramm="false"  placeholder="Enter message" ></textarea>
+    
+    <button id="sendBtn"> Send
+
+    </button>
+
+</div>
+
+  
+        
+</body>
+<!-- <script src="http://localhost:8000/socket.io/socket.io.js"></script> -->
+<!-- or -->
+
+<!-- by default the sokect.io server exposes a client bundle at  below -->
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js" integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<script src="webrtc.js"></script>
+
+  
+
+
+</html>
